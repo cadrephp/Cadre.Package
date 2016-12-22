@@ -15,9 +15,8 @@ For a project skeleton see [Cadre.Project](https://github.com/cadrephp/Cadre.Pro
 
 ```bash
 # Setup new package repo
-git clone git@github.com:cadrephp/Cadre.Package.git new-package
-cd new-package
-rm -fr .git
+composer create-project -s dev cadre/package example-package --repository-url=https://packages.cadrephp.com
+cd example-package
 git init .
 
 # Update dependencies
