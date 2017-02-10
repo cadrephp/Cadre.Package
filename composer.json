@@ -1,6 +1,6 @@
 {
     "name": "cadre/package",
-    "description": "Module system based on Aura.Di",
+    "description": "",
     "type": "library",
     "license": "MIT",
     "require": {
