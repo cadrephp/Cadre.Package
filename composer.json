@@ -17,7 +17,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Cadre\\": "tests/"
+            "Cadre\\": "tests/",
+            "PHP_CodeSniffer\\": "vendor/squizlabs/php_codesniffer/src/"
         }
     },
     "license": "MIT",

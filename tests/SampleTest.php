@@ -1,7 +1,9 @@
 <?php
+declare(strict_types=1);
+
 namespace Cadre;
 
-class SampleTest extends \PHPUnit_Framework_TestCase
+class SampleTest extends \PHPUnit\Framework\TestCase
 {
     public function testWithoutName()
     {
